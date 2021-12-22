@@ -4,6 +4,7 @@ import numpy as np
 #cap = cv.VideoCapture(0)
 cap = cv.VideoCapture('/home/vrushali/Downloads/IMG_7026.MOV')
 print("First Change")
+print("First feature")
 while(1):
     # Take each frame
     _, frame = cap.read()
